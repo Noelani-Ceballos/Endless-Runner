@@ -5,11 +5,11 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
-    public Rigidbody playerRb;
+    private Rigidbody2D playerRb;
     // Start is called before the first frame update
     void Start()
     {
-        playerRb = GetComponent<Rigidbody>(); 
+        playerRb = GetComponent<Rigidbody2D>(); 
 
     }
 
@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            
+            playerRb.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
         }
             
     }   
