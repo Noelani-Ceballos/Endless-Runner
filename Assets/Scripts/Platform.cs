@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Platform : MonoBehaviour
 {
+    public int speed = 7;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +16,6 @@ public class Platform : MonoBehaviour
     {
         transform.Translate(Vector2.left * Time.deltaTime);
             
-        transform.Translate(Vector2.left * Time.deltaTime * 5, Space.World);
+        transform.Translate(Vector2.left * Time.deltaTime * speed, Space.World);
     }
 }

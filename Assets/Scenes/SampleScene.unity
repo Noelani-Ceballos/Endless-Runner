@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6170319995161335526, guid: 5c9f8e840c1ed4e7781a042f9e1e7b7c, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6170319995161335526, guid: 5c9f8e840c1ed4e7781a042f9e1e7b7c, type: 3}
       propertyPath: m_LocalScale.x
@@ -201,7 +201,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6170319995161335526, guid: 5c9f8e840c1ed4e7781a042f9e1e7b7c, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6170319995161335526, guid: 5c9f8e840c1ed4e7781a042f9e1e7b7c, type: 3}
       propertyPath: m_LocalScale.x
@@ -266,7 +266,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6170319995161335526, guid: 5c9f8e840c1ed4e7781a042f9e1e7b7c, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6170319995161335526, guid: 5c9f8e840c1ed4e7781a042f9e1e7b7c, type: 3}
       propertyPath: m_LocalScale.x
@@ -479,7 +479,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6170319995161335526, guid: 5c9f8e840c1ed4e7781a042f9e1e7b7c, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6170319995161335526, guid: 5c9f8e840c1ed4e7781a042f9e1e7b7c, type: 3}
       propertyPath: m_LocalScale.x
@@ -675,6 +675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5985fb85ff1774175bd648fbf1e4dd30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jump: 7
 --- !u!1001 &6170319995495069325
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -682,13 +683,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6170319995161335520, guid: 5c9f8e840c1ed4e7781a042f9e1e7b7c, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6170319995161335524, guid: 5c9f8e840c1ed4e7781a042f9e1e7b7c, type: 3}
       propertyPath: m_Name
       value: 'Platform '
       objectReference: {fileID: 0}
     - target: {fileID: 6170319995161335526, guid: 5c9f8e840c1ed4e7781a042f9e1e7b7c, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6170319995161335526, guid: 5c9f8e840c1ed4e7781a042f9e1e7b7c, type: 3}
       propertyPath: m_LocalScale.x
