@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
         {
             playerRb.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
         }
-            
+        
     }   
         
     
