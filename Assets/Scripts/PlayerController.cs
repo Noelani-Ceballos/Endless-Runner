@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+
     public int jump = 1;
+    public bool isAlive;
 
     private Rigidbody2D playerRb;
     // Start is called before the first frame update
