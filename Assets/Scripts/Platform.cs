@@ -5,16 +5,14 @@ using UnityEngine;
 public class Platform : MonoBehaviour
 {
 
-     public GameObject platformPrefab;
-
-     public PlayerController playerScript; 
+   
 
 
     public int speed = 7;
     // Start is called before the first frame update
     void Start()
     {
-      
+    
     
     }
 

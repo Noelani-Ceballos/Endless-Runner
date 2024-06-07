@@ -1,4 +1,4 @@
-using System.Collections;
+  using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,17 +6,16 @@ public class PlatformSpawner : MonoBehaviour
 {
      public GameObject platformPrefab;
 
-     public PlayerController playerScript; 
 
-     float minY = 0.58f;
-     float maxY = 4.52f;
+     float minY = -5.92f;
+     float maxY = -0.4f;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("SpawnPlatform", 2, 2);
-        playerScript = GameObject.Find("Player").GetComponent<PlayerController>();
+        InvokeRepeating("SpawnPlatform", 2, 6);
+       
     }
 
     // Update is called once per frame
@@ -28,9 +27,10 @@ public class PlatformSpawner : MonoBehaviour
     }
       void SpawnPlatform()
         {
-             Instantiate(platformPrefab, new Vector2(7.57f,Random.Range(minY, maxY)), Quaternion.identity);
+             Instantiate(platformPrefab, new Vector2(13f,Random.Range(minY, maxY)), Quaternion.identity);
         }
    
     }
 
 
+ 
