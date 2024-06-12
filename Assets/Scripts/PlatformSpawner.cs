@@ -8,7 +8,7 @@ public class PlatformSpawner : MonoBehaviour
 
 
      float minY = -5.92f;
-     float maxY = -0.4f;
+     float maxY = -0.65f;
 
 
     // Start is called before the first frame update
